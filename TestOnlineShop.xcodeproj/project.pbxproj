@@ -11,6 +11,10 @@
 		9809C1B52C0DBA9400EA5C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809C1B42C0DBA9400EA5C7B /* ContentView.swift */; };
 		9809C1B72C0DBA9500EA5C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9809C1B62C0DBA9500EA5C7B /* Assets.xcassets */; };
 		9809C1BA2C0DBA9500EA5C7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9809C1B92C0DBA9500EA5C7B /* Preview Assets.xcassets */; };
+		9809C1C22C0DCE2300EA5C7B /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809C1C12C0DCE2300EA5C7B /* MyButtonStyle.swift */; };
+		9809C1C42C0DD91D00EA5C7B /* ShoppingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809C1C32C0DD91D00EA5C7B /* ShoppingCartView.swift */; };
+		9809C1C82C0DDD5F00EA5C7B /* ShoppingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809C1C72C0DDD5F00EA5C7B /* ShoppingStorage.swift */; };
+		9809C1CB2C0E219100EA5C7B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9809C1CA2C0E219100EA5C7B /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9809C1B42C0DBA9400EA5C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9809C1B62C0DBA9500EA5C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9809C1B92C0DBA9500EA5C7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9809C1C12C0DCE2300EA5C7B /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		9809C1C32C0DD91D00EA5C7B /* ShoppingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartView.swift; sourceTree = "<group>"; };
+		9809C1C72C0DDD5F00EA5C7B /* ShoppingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingStorage.swift; sourceTree = "<group>"; };
+		9809C1CA2C0E219100EA5C7B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		9809C1B12C0DBA9400EA5C7B /* TestOnlineShop */ = {
 			isa = PBXGroup;
 			children = (
+				9809C1C52C0DDC5F00EA5C7B /* Model */,
+				9809C1C02C0DCDFE00EA5C7B /* Modifiers */,
+				9809C1C62C0DDC6800EA5C7B /* View */,
+				9809C1C92C0E217200EA5C7B /* Service */,
 				9809C1B22C0DBA9400EA5C7B /* TestOnlineShopApp.swift */,
-				9809C1B42C0DBA9400EA5C7B /* ContentView.swift */,
 				9809C1B62C0DBA9500EA5C7B /* Assets.xcassets */,
 				9809C1B82C0DBA9500EA5C7B /* Preview Content */,
 			);
@@ -65,6 +76,39 @@
 				9809C1B92C0DBA9500EA5C7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9809C1C02C0DCDFE00EA5C7B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9809C1C12C0DCE2300EA5C7B /* MyButtonStyle.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		9809C1C52C0DDC5F00EA5C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9809C1C72C0DDD5F00EA5C7B /* ShoppingStorage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9809C1C62C0DDC6800EA5C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9809C1B42C0DBA9400EA5C7B /* ContentView.swift */,
+				9809C1C32C0DD91D00EA5C7B /* ShoppingCartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9809C1C92C0E217200EA5C7B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9809C1CA2C0E219100EA5C7B /* NetworkManager.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9809C1CB2C0E219100EA5C7B /* NetworkManager.swift in Sources */,
 				9809C1B52C0DBA9400EA5C7B /* ContentView.swift in Sources */,
+				9809C1C22C0DCE2300EA5C7B /* MyButtonStyle.swift in Sources */,
+				9809C1C82C0DDD5F00EA5C7B /* ShoppingStorage.swift in Sources */,
+				9809C1C42C0DD91D00EA5C7B /* ShoppingCartView.swift in Sources */,
 				9809C1B32C0DBA9400EA5C7B /* TestOnlineShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
